@@ -1,6 +1,10 @@
 # manager
 
-> elm manager system
+> 基于 vue + element-ui 的后台管理系统
+
+学习参考
+
+[基于 vue + element-ui 的后台管理系统](https://github.com/bailicangdu/vue2-manage)
 
 ## Build Setup
 
