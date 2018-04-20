@@ -19,6 +19,12 @@ export const signout = () => fetch('/admin/singout')
 export const getAdminInfo = () => fetch('/admin/info')
 
 /**
+ * 获取用户列表
+ */
+
+export const getUserList = data => fetch('/v1/users/list', data)
+
+/**
  * 用户注册量
  */
 

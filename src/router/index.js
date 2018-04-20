@@ -8,7 +8,7 @@ const manager = r => require.ensure([], () => r(require('@/pages/manager')), 'ma
 const home = r => require.ensure([], () => r(require('@/pages/home')), 'home')
 const addShop = r => require.ensure([], () => r(require('@/pages/home')), 'home')
 const addGoods = r => require.ensure([], () => r(require('@/pages/home')), 'home')
-const userList = r => require.ensure([], () => r(require('@/pages/home')), 'home')
+const userList = r => require.ensure([], () => r(require('@/pages/userList')), 'userList')
 const shopList = r => require.ensure([], () => r(require('@/pages/home')), 'home')
 const foodList = r => require.ensure([], () => r(require('@/pages/home')), 'home')
 const orderList = r => require.ensure([], () => r(require('@/pages/home')), 'home')
@@ -19,7 +19,7 @@ const uploadImg = r => require.ensure([], () => r(require('@/pages/home')), 'hom
 const vueEdit = r => require.ensure([], () => r(require('@/pages/home')), 'home')
 const adminSet = r => require.ensure([], () => r(require('@/pages/home')), 'home')
 const sendMessage = r => require.ensure([], () => r(require('@/pages/home')), 'home')
-const explain = r => require.ensure([], () => r(require('@/pages/home')), 'home')
+const explain = r => require.ensure([], () => r(require('@/pages/explain')), 'explain')
 
 const routes = [
   {
